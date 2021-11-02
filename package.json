@@ -1,0 +1,30 @@
+{
+  "name": "sst-express",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "test": "sst test",
+    "start": "sst start",
+    "build": "sst build",
+    "deploy": "sst deploy",
+    "remove": "sst remove"
+  },
+  "eslintConfig": {
+    "extends": [
+      "serverless-stack"
+    ]
+  },
+  "devDependencies": {
+    "@aws-cdk/assert": "1.126.0",
+    "@tsconfig/node14": "^1.0.1",
+    "@types/aws-lambda": "^8.10.70",
+    "@types/express": "^4.17.13"
+  },
+  "dependencies": {
+    "@aws-cdk/core": "1.126.0",
+    "@serverless-stack/cli": "0.50.2",
+    "@serverless-stack/resources": "0.50.2",
+    "express": "^4.17.1",
+    "serverless-http": "^2.7.0"
+  }
+}
